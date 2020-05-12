@@ -29,7 +29,7 @@ option(ARM_TARGET           "Force use specific ARM target 8 or 7" 0)
 option(HWLOC_DEBUG          "Enable hwloc debug helpers and log" OFF)
 
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 
 include (CheckIncludeFile)
